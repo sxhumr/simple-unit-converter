@@ -3,15 +3,33 @@
 
 #include <QString>
 #include <QComboBox>
+#include <unordered_map>
+#include <memory>
+
+enum class UnitCategory { Length, Weight, Temperature, Volume, Speed };
 
 class Units
 {
 public:
-    Units() = default;
+    static Units& getInstance();
 
-    static double convert(const QString &from, const QString &to, double value);
+    double convert(const QString &from, const QString &to, double value);
+    void populateUnits(QComboBox* combo, UnitCategory category);
+    UnitCategory getCategory(const QString& unit) const;
 
-    static void populateUnits(QComboBox *combo);
+private:
+    Units();
+    Units(const Units&) = delete;
+    Units& operator=(const Units&) = delete;
+
+    void initConversionFactors();
+
+    std::unordered_map<QString, double> lengthFactors;
+    std::unordered_map<QString, double> weightFactors;
+    std::unordered_map<QString, double> volumeFactors;
+    std::unordered_map<QString, double> speedFactors;
+
+    static std::unique_ptr<Units> instance;
 };
 
 #endif // UNITS_H

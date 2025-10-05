@@ -6,12 +6,12 @@
 #include <QLineEdit>
 #include <QLabel>
 #include <QPushButton>
-#include <QString>
+#include <QTabWidget>
+#include <unordered_map>
+#include "units.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -19,26 +19,36 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit MainWindow(QWidget *parent = nullptr);
+    ~MainWindow() override;
 
 private slots:
     void convertUnits();
+    void reverseConversion();
+    void updateUnits();
 
 private:
     Ui::MainWindow *ui;
-    // UI Elements
-    QComboBox *cmbUnitTo;
-    QComboBox *cmbUnitFrom;
-    QLabel *lblOutputResult;
-    QLabel *lblFrom;
-    QLabel *lblTo;
-    QLabel *lblHeader;
-    QLineEdit *lnEdtInput;
-    QPushButton *btnSubmit;
 
-    QString fromUnit;
-    QString toUnit;
+    QTabWidget *tabWidget;
+
+    struct TabWidgets {
+        QWidget *tab;
+        QComboBox *cmbUnitFrom;
+        QComboBox *cmbUnitTo;
+        QLineEdit *lnEdtInput;
+        QLabel *lblOutputResult;
+        QPushButton *btnSubmit;
+        QPushButton *btnReverse;
+
+        QLineEdit *lnEdtDistance; // For ETA
+        QLabel *lblEta;
+    };
+
+    std::unordered_map<UnitCategory, TabWidgets> tabs;
+
+    void setupTab(UnitCategory category, const QString &title);
+    void calculateETA(TabWidgets &tw);
 };
 
 #endif // MAINWINDOW_H

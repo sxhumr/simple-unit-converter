@@ -1,0 +1,5 @@
+C:/Users/sohum/Desktop/Converter/converter/CMakeFiles/Converter.dir
+C:/Users/sohum/Desktop/Converter/converter/CMakeFiles/edit_cache.dir
+C:/Users/sohum/Desktop/Converter/converter/CMakeFiles/rebuild_cache.dir
+C:/Users/sohum/Desktop/Converter/converter/CMakeFiles/Converter_autogen_timestamp_deps.dir
+C:/Users/sohum/Desktop/Converter/converter/CMakeFiles/Converter_autogen.dir
