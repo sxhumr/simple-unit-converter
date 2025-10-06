@@ -1,6 +1,6 @@
 # Qt Unit Converter
 
-A simple desktop application built with **Qt** to convert between common units of measurement.
+A very simple desktop application built with **Qt** to convert between common units of measurement.
 
 ## Features
 
