@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <memory>
 
-enum class UnitCategory { Length, Weight, Temperature, Volume, Speed };
+enum class UnitCategory { Length, Weight, Temperature, Volume, Speed, Currency };
 
 class Units
 {
@@ -16,6 +16,10 @@ public:
     double convert(const QString &from, const QString &to, double value);
     void populateUnits(QComboBox* combo, UnitCategory category);
     UnitCategory getCategory(const QString& unit) const;
+
+    // --------  Currency rate management --------
+    void setCurrencyRate(const QString& from, const QString& to, double rate);
+    bool getCurrencyRate(const QString& from, const QString& to, double& outRate) const;
 
 private:
     Units();
@@ -28,6 +32,9 @@ private:
     std::unordered_map<QString, double> weightFactors;
     std::unordered_map<QString, double> volumeFactors;
     std::unordered_map<QString, double> speedFactors;
+
+    // -------- currency rates --------
+    std::unordered_map<QString, std::unordered_map<QString, double>> currencyRates;
 
     static std::unique_ptr<Units> instance;
 };

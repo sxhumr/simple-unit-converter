@@ -1,6 +1,16 @@
 C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/sohum/Desktop/Converter/mainwindow.h \
   C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/moc_predefs.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QDateTime \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QFlags \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QIODevice \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QList \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QMetaType \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QObject \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QSharedDataPointer \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QString \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QTimer \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QUrl \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/QVariant \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -15,11 +25,13 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qchar.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -31,8 +43,10 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qcryptographichash.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -106,6 +120,7 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -155,12 +170,34 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/QNetworkAccessManager \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/QNetworkReply \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/QNetworkRequest \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/QSslConfiguration \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qabstractsocket.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qhostaddress.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qnetworkreply.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qnetworkrequest.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qssl.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qsslcertificate.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qsslconfiguration.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qsslerror.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qsslsocket.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qtcpsocket.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QComboBox \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QProgressBar \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QTabWidget \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/QToolBar \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
@@ -170,6 +207,7 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qprogressbar.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -178,6 +216,7 @@ C:/Users/sohum/Desktop/Converter/converter/Converter_autogen/EWIEGA46WW/moc_main
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtoolbar.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
