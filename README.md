@@ -11,6 +11,7 @@ A very simple desktop application built with **Qt** to convert between common un
   - Celsius → Fahrenheit
 - Easy-to-use GUI with input field and dropdowns.
 - Instant conversion results.
+- Live Currency Conversion Based on the current exchange rate.
 
 ## Requirements
 
